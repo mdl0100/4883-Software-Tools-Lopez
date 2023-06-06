@@ -1,11 +1,11 @@
 ## A03 - Software Tool
-### Marcos Lopez
-### Description:
+#### Marcos Lopez
+#### Description:
 
 [Notion.so](https://www.notion.so/) is a browser based note-taking app that is used for productivity management, task managment, 
 product development, and a variety of other ogranization uses. 
 
-### Key features of Notion:
+#### Key features of Notion:
 - Relative databases
 - Markdown support
 - LaTeX support, inline and equation mode
@@ -15,7 +15,7 @@ product development, and a variety of other ogranization uses.
 - New features added frequently
 - It even has an AI!
 
-### Why I chose Notion
+#### Why I chose Notion
 I have used Notion for a few years for various organizational and productivity projects. 
 I keep notes from classes, links for recipes, grocery lists, and full pdfs within Notion
 that are each easily reachable through my PC, phone, or laptop. And all of it is on the 
