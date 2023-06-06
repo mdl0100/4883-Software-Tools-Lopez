@@ -1,0 +1,40 @@
+// Marcos Lopez
+// GraphViz Binary Search Tree
+// Assignment 4
+
+// This file uses the DOT language to display a 7 node Binary Search Tree 
+// The numbers used are, 3, 18, 21, 48, 54, 56, and 80
+
+digraph linkedlist {
+        // [03 18 21 46 54 56 80]
+        node [shape=record,tailclip=false];
+        A [label=" <left> | <center> 03 | <right> "]
+        B [label=" <left> | <center> 18 | <right> "]
+        C [label=" <left> | <center> 21 | <right> "]
+        D [label=" <left> | <center> 46 | <right> "]
+        E [label=" <left> | <center> 54 | <right> "]
+        F [label=" <left> | <center> 56 | <right> "]
+        G [label=" <left> | <center> 80 | <right> "]
+        null [color=white]
+
+        D:left:c -> B:center;
+        D:right:c -> F:center;
+
+        B:left:c -> A:center;
+        B:right:c -> C:center;
+        
+        F:left:c -> E:center;
+        F:right:c -> G:center;
+        
+        A:left  -> null;
+        A:right -> null;
+        
+        C:left  -> null;
+        C:right -> null;
+        
+        E:left  -> null;
+        E:right -> null;
+        
+        G:left  -> null;
+        G:right -> null;
+}
