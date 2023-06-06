@@ -8,7 +8,7 @@ We create a binary search tree visualization with 7 nodes and display it using t
 
 |   #   | File             | Description                                        |
 | :---: | ---------------- | -------------------------------------------------- |
-|   1   | Binarysearch.dot | GraphViz File that holds the graph information     |
+|   1   | BinarySearch.dot | GraphViz File that holds the graph information     |
 
 ### Instructions
 
