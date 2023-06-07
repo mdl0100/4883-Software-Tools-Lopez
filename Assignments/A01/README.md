@@ -15,5 +15,5 @@ Create a binary search tree using graphviz that contains seven nodes and uses a 
 
 - You will either need to use a vizualization package or an online GraphViz Editor such as [GraphViz Online](https://dreampuf.github.io/GraphvizOnline/)
 - My program used the 7 randomly generated numbers 3, 18, 21, 48, 54, 56, and 80
-- A null node was added for null points
+- You may either look at the bst.dot file above for the GraphViz code, or the bst.svg file above for the generated picture
 
