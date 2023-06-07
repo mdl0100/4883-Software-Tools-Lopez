@@ -1,5 +1,5 @@
 ## A01 - Binary Search Tree
-### Marcos
+### Marcos Lopez
 ### Description:
 
 We create a binary search tree visualization with 7 nodes and display it using the DOT language
