@@ -2,14 +2,14 @@
 ### Marcos Lopez
 ### Description:
 
-We create a binary search tree visualization with 7 nodes and display it using the DOT language
+Create a binary search tree using graphviz that contains seven nodes and uses a record as its shape. The record should have left data right sections.
 
 ### Files
 
-|   #   | File                | Description                                        |
-| :---: | ----------------    | -------------------------------------------------- |
-|   1   | bst.dot             | GraphViz File that holds the graph information     |
-|   2   | bst.svg             | Visualization of the Binary Search Tree            |
+|   #   | File              | Description                                        |
+| :---: | ----------------  | -------------------------------------------------- |
+|   1   | [bst.dot ](https://github.com/mdl0100/4883-SoftwareTools-Lopez/blob/main/Assignments/A01/bst.dot) | GraphViz File that holds the graph information     |
+|   2   | [bst.svg  ](https://github.com/mdl0100/4883-SoftwareTools-Lopez/blob/main/Assignments/A01/bst.svg) | Visualization of the Binary Search Tree            |
 
 ### Instructions
 
