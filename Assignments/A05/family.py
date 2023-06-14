@@ -35,14 +35,21 @@ shapes = ['square', 'diamond']
 dot = graphviz.Digraph(comment="The Dwarven Realm", graph_attr={'rankdir': "TB", 'splines': 'curves'})
 # Extract Person data to create their node
 for key, person in family_int.items():
+    parent1 = person['parentId1']
+    parent2 = person['parentId2']
+    if parent1 != None:
+        if family_int[parent1]['gender'] == 1:
+            parent1, parent2 = parent2, parent1           
+        person['lname'] = family_int[parent1]['lname']  # inherit father's last name
+        person['clan'] = family_int[parent2]['clan']    # inherit father's paternal clan
+
     fname, lname = person['fname'], person['lname']     # First Name, Last Name
     gender = person['gender']                           # Gender
     byear, dyear = person['byear'], person['dyear']     # Birth and Death
     dage = person['dage']                               # Age at death
     spouse = person['spouseId']                         # Id of their Spouse, None if never married
-    parent = person['parentId2']
-    if (parent != None) and (person['clan'] != family_int[parent]['clan']):
-        person['clan'] = family_int[parent]['clan']     # Inherit their father's clan
+    parent2 = person['parentId2']
+
 
     if spouse !=None:                                   # If there is a spouse listed, it's the wife
         clan = clans[family_int[spouse]['clan']]        #   Husband inherits Wife's clan
