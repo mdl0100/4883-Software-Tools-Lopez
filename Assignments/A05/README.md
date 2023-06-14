@@ -5,7 +5,8 @@
 The purpose of this assignment is to produce a GraphViz family tree **programmatically**.
 A Dwarven family tree is created with the following inheritance properties:
 - Husbands take their wife's clan upon marriage.
-- Children take their father's last name and paternal line clan. 
+- Children take their father's last name and paternal line clan.
+  - This means that clan lines fall simliar to jewish faith through maternal lines. You may have to back up a few generations to see what where a child received their clan from. 
 
 ### Files
 
