@@ -18,7 +18,6 @@ A few notes about this file:
 
 import csv
 import json
-from rich import print
 
 # Open dwarf_family_tree.csv and convert its contents to a Python dictionary
 data = {}
