@@ -35,6 +35,30 @@ for key, person in family_int.items():
     fname = person['fname']
     lname = person['lname']
     gender = person['gender']
-    dot.node(str(key), f'{fname} {lname}')
+    clan = clans[person['clan']]
+    byear = person['byear']
+    dyear = person['dyear']
+    dage = person['dage']
+    fill = f'\#{colors[person["clan"]]}'
+    dot.node(str(key), label=f'Name: {fname} {lname}\nBorn-Died: {byear}-{dyear}\nAge: {dage}\nClan: {clan}', shape=shapes[gender], color=fill)
+    # dot.node(str(key), color=color,shape=shapes, label =f'''<<table>
+    #          <tr>
+    #             <td>Name</td>
+    #             <td>{fname} {lname}</td>
+    #          </tr>
+    #          <tr>
+    #             <td>Born-Died:</td>
+    #             <td>{byear} - {dyear}</td>
+    #          </tr>
+    #          <tr>
+    #             <td>Age:</td>
+    #             <td>{dage}</td>
+    #          </tr>
+    #          <tr>
+    #             <td>Clan:</td>
+    #             <td>{clan}</td>
+    #          </td>
+    #          </table>>
+    #          ''', shape=shapes[gender], color=color)
 
-print(dot.source)
+dot.render(directory='./')
