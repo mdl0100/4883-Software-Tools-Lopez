@@ -1,4 +1,7 @@
-pyppeteer
 asyncio
-pysimplegui
 bs4
+json
+numpy 
+pyppeteer
+PySimpleGUI
+time
