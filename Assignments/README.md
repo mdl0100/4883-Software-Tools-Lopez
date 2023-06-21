@@ -14,5 +14,6 @@ as done by Marcos Lopez
 | A03   | [Assignment 3](./A03/)    | Choose a Software Tool |
 | A04   | [Assignment 4](./A04/)    | Binary Search Tree in GraphViz|
 | A05   | [Assignment 5](./A05/)    | Generate Dwarf Family Tree in GraphViz |
+| A07   | [Assignment 7](./A07/)    | Weather Underground Webscraping   |
 
 
