@@ -22,6 +22,55 @@ The data scraped will bebased on user entered parameters, and presented back to 
 
 ### Instructions
 - Run [main.py](./main.py) to gather information from user and scrape relavant website from WeatherUnderground
+- If there is an issue with the weather underground website, a TimeOut Error will occur, and the main.py program will need to be rerun.
+- In the next section there are many examples of what the options and outputs a user can expect.
 
 ### Examples
-    
+Upon launching main.py, the user will be presented with the following GUI:
+
+    <img width="247" alt="Screenshot 2023-06-21 142657" src="https://github.com/mdl0100/4883-SoftwareTools-Lopez/assets/7751091/3e176639-4d6d-4a47-886b-a13808ba4f99">
+
+We will walk through 3 different ways the output may appear, but will use the same date and city for all three examples. The data will be
+**June 15th, 2020** and we will be looking at data from **Aberdeen, United Kingdom**
+
+#### Daily Example
+If you fill in the above date and city, and then select the Daily option at the end:
+
+<img width="248" alt="Screenshot 2023-06-21 143052" src="https://github.com/mdl0100/4883-SoftwareTools-Lopez/assets/7751091/0368c580-18a4-417c-990e-7a93bf4729e6">
+
+The program will then go scrape this url, with some feedback in the terminal:
+
+<img width="575" alt="Screenshot 2023-06-21 144335" src="https://github.com/mdl0100/4883-SoftwareTools-Lopez/assets/7751091/1b50a6bb-98cc-466b-a1a2-ebbdb845ffe8">
+
+The user will then receive the following window, and may exit with either closing the window, or pressing the Exit Button.
+
+<img width="903" alt="Screenshot 2023-06-21 143426" src="https://github.com/mdl0100/4883-SoftwareTools-Lopez/assets/7751091/a56483ba-2ffa-421e-9747-73944588cb22">
+
+#### Weekly Example
+If, instead, the user chooses the 'Weekly Option as below
+
+<img width="248" alt="Screenshot 2023-06-21 143204" src="https://github.com/mdl0100/4883-SoftwareTools-Lopez/assets/7751091/8a5713bc-1277-4838-927d-b6bb3bfba097">
+
+Then the url is changed, and that change is evident in the terminal feedback:
+
+<img width="583" alt="Screenshot 2023-06-21 144323" src="https://github.com/mdl0100/4883-SoftwareTools-Lopez/assets/7751091/446a8fdc-0938-497f-8420-d32dc3c4e29b">
+
+And a different table, with altered data is displayed
+
+<img width="901" alt="Screenshot 2023-06-21 143543" src="https://github.com/mdl0100/4883-SoftwareTools-Lopez/assets/7751091/da2a9b0c-71f9-4247-9634-70e04c9b7017">
+
+While the the default size of the window is large enough to show the information for daily, weekly, and monthly choices, it is clearly defaulted too big for a weekly value. However, the window is resizeable, and the user may shrink the window if they find it too large for their purposes.
+
+#### Monthly Example
+
+Our last call will be for a city selecting the "Monthly" option from the initial GUI
+
+<img width="249" alt="Screenshot 2023-06-21 143214" src="https://github.com/mdl0100/4883-SoftwareTools-Lopez/assets/7751091/3b35aaeb-b6ab-418a-b9df-14ecf5276d4e">
+
+Again, the feedback shows that we have changed the url to be scraped:
+
+<img width="602" alt="Screenshot 2023-06-21 143841" src="https://github.com/mdl0100/4883-SoftwareTools-Lopez/assets/7751091/dbf5cb98-a010-44b0-8dd7-dbf562222164">
+
+And the monthly data is now to be shown:
+
+<img width="901" alt="Screenshot 2023-06-21 143651" src="https://github.com/mdl0100/4883-SoftwareTools-Lopez/assets/7751091/e7ff1f4d-9fd0-4003-877f-1166917a5fba">
