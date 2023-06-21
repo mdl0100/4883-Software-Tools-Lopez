@@ -1,9 +1,8 @@
-import asyncio, json, time, PySimpleGUI as sg
-from bs4 import BeautifulSoup
-from pyppeteer import launch
-from numpy import array
-
 """
+Assignment A07
+Marcos Lopez
+Webscraping with BeautifulSoup
+
 Description: 
     The purpose of this program is to scrape weather data from Weather Underground based on 
     user entered parameters, and present it back to the user in a GUI
@@ -18,6 +17,11 @@ No direct arguments are needed for the program to run, as they are retrieved fro
 
 The program outputs a GUI, but does not return any values
 """
+
+import asyncio, json, time, PySimpleGUI as sg   # asyncio is for the dynamic page loading, and PySimpleGUI is for a GUI
+from bs4 import BeautifulSoup                   # Needed for processing html data
+from pyppeteer import launch                    # Needed for scraping website dynamically
+from numpy import array                         # Just to transpose a matrix
 
 def currentDate(returnType='tuple') -> None:
     # Get the current date and return it as a tuple.
@@ -132,11 +136,12 @@ async def scrape(url:str) -> str:
                                     {'visible': True})      # will wait for tables to load or timeout
     except TimeoutError:                                    # restart if there's a TimeOut Error
         print('Recieved a TimeOut Error. Restarting page')
-        scrape(url)
         return
     data = await page.content()                             # scrape page data
     await browser.close()                                   # close browser
     print('Website successfully scraped!')
+    with open('./page.html', 'w', encoding='utf-8') as f:                     # save .html locally
+        f.write(data)
     return data                                             # return the scraped page
 
 
@@ -191,7 +196,8 @@ def make_gui_table(page: str, is_daily=True)-> None:
                     headings=keys,                     # table headers are from keys
                     auto_size_columns=True,            
                     display_row_numbers=False, 
-                    justification='center', 
+                    justification='center',
+                    alternating_row_color='lightyellow', 
                     expand_x=True, 
                     expand_y=True)
     layout = [[table],
