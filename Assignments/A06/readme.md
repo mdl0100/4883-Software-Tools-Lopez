@@ -19,6 +19,10 @@ Notion.so is a powerful productivity for note-taking, organization, and collabor
 
 - **Task and Project Management**
   - Users can create to-do lists, set due dates, assign tasks to team members, and track progress using kanban boards, calendars, or list views.
+    - An example of a Tast list with various members assigned.
+    <img width="541" alt="Screenshot 2023-06-25 191152" src="https://github.com/mdl0100/4883-SoftwareTools-Lopez/assets/7751091/69ff02d6-8973-418e-b673-7a198dd42cbb">
+
+    
   - Users can also make databases and properties, creatomg structured project workflows.
     - A basic task list database
     <img width="600" alt="Screenshot 2023-06-25 190756" src="https://github.com/mdl0100/4883-SoftwareTools-Lopez/assets/7751091/f1082b66-a15d-4bb4-97b2-95989242ae52">
