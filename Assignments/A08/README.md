@@ -2,7 +2,7 @@
 # Marcos Lopez
 
 
-### Description
+## Description
 Create a RESTful API using FastAPI that provides access to COVID-19 data. The API will fetch the data from a publicly available data source and expose endpoints to retrieve various statistics related to COVID-19 cases.
 
 The assigment will accomplish the following goals:
@@ -11,14 +11,16 @@ The assigment will accomplish the following goals:
 - Errors are handled gracefully. 
   - For example, if a parameter that is passed in causes an error, simply return {'success':False} or return the parameters passed in as well {'success':False,'param1':value1,'param(n):value(n)}. This helps for debugging.
 - Proper API documentation using FastAPI's built-in support for OpenAPI (Swagger UI) is implemented. 
-  - This means functions are commented with markdown syntax for readability. 
+  - This means functions are commented with markdown syntax for readability.
+
+## Folder Contents
   
 |   #   | File                 | Description                             |
 | :---: | -------------------- | :-------------------------------------- |
 |  01   | [data.csv](data.csv) | COVID data set that we are pulling from |
 
 ### Deliverables
-- [ ] Create a folder called `A08` to place all of the assignment files in.
+- [X] Create a folder called `A08` to place all of the assignment files in.
 - [ ] Include Python code for the FastAPI application and any additional files.
 - [ ] A README.md Document explaining the API endpionts and their usage
   - [ ] if the functions are commented well, you could almost cut and past your readme.
