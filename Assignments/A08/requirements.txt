@@ -1,3 +1,0 @@
-fastAPI
-uvicorn
-rich
