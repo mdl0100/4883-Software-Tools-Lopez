@@ -16,5 +16,6 @@ as done by Marcos Lopez
 | A05   | [Assignment 5](./A05/)    | Generate Dwarf Family Tree in GraphViz |
 | A06   | [Assignment 6](./A06)     | Presentation on Notion.so |
 | A07   | [Assignment 7](./A07/)    | Weather Underground Webscraping   |
+| A08   | [Assignment 8](./A08)     | COVID-19 API |
 
 
