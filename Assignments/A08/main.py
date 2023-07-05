@@ -21,6 +21,11 @@ If program gives error: Error loading ASGI app. Could not import module "api"
 5	Cumulative_cases	Cumulative cases up to this date    (not used)
 6	New_deaths	Number of new deaths on this date
 7	Cumulative_deaths	Cumulative deaths up to this date   (not used)
+------------------------------------------------------------
+
+Github Copilot was used to help write the comments in this file to keep them consistent 
+between the API routes and between the functions.
+
 """
 
 
