@@ -21,10 +21,10 @@ The assigment will accomplish the following goals:
 
 ### Deliverables
 - [X] Create a folder called `A08` to place all of the assignment files in.
-- [ ] Include Python code for the FastAPI application and any additional files.
+- [X] Include Python code for the FastAPI application and any additional files.
 - [ ] A README.md Document explaining the API endpionts and their usage
   - [ ] if the functions are commented well, you could almost cut and past your readme.
 - [ ] A brief report summarizing the implementation process, challenges faced, and any additional functionalities you may have added. 
-- [ ] Any instructions should be included in your ream (how to run your code)
+- [ ] Any instructions should be included in your readme (how to run your code)
   
 > Note: Ensure proper code organization, documentations, and adherence to best practices in software development.
