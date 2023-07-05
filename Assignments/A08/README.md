@@ -24,15 +24,15 @@ The assigment will accomplish the following goals:
 - [X] Include Python code for the FastAPI application and any additional files.
 - [X] A README.md Document explaining the API endpionts and their usage
 - [ ] A brief report summarizing the implementation process, challenges faced, and any additional functionalities you may have added. 
-- [ ] Any instructions should be included in your readme (how to run your code)
+- [X] Any instructions should be included in your readme (how to run your code)
   
 ### Instructions
 1. Install the packages in the [requirements.txt](requirements.txt) file
 
-2. Run main to start the API. The API will be hosted on localhost:5000. The API can be accessed through a browser. 
+2. Run `./main.py` to start the API. The API will be hosted on `localhost:5000`. The API can be accessed through a browser. 
      - If program gives error: Error loading ASGI app. Could not import module "api" 
   
-        then run this command: 
+        then run command: 
     `uvicorn main:app --reload --port 5000`
 
 3. Use the following API routes to access the data you are interested in.
@@ -50,10 +50,10 @@ Here is a list of the API Routes and how they can be accessed:
   - **Returns:**
       - A list of unique countries in the data set.
 
-  Example 1:
+  ### Example 1:
   [https://localhost:5000/countires/](https://localhost:5000/countires/)
 
-   Response 1:
+  ### Response 1:
 
 `  {
       "countries": [
@@ -100,17 +100,17 @@ Here is a list of the API Routes and how they can be accessed:
 
 <details>
 <summary>/cases/</summary>
-## This method returns a list total cases in the world by year and also the total number of cases.
+This method returns a list total cases in the world by year and also the total number of cases.
 
 - **Params:**
     - None
 - **Returns:**
     - A list total cases in the world by year and also the total number of cases.
 
- Example 1:
+### Example 1:
 [https://localhost:5000/cases/](https://localhost:5000/cases/)
 
- Response 1:
+### Response 1:
 `{
     "Cases By Year": {
         "2020": 82853510,
@@ -160,10 +160,10 @@ This method returns the number of cases by country.
 "year": null
 }`
 
-Example 2:
+### Example 2:
 [https://localhost:5050/cases_by_country/?country=Brazil](https://localhost:5050/cases_by_country/?country=Brazil)
 
-Response 2:
+### Response 2:
 
 `{
     "Cases By Country": {
@@ -176,10 +176,10 @@ Response 2:
 "year": null
 }`
 
-Example 3:
+### Example 3:
 [http://localhost:5000/cases_by_country/?country=Brazil&year=2021](http://localhost:5000/cases_by_country/?country=Brazil&year=2021)
 
- Response 3:
+### Response 3:
 
 `{
     "Cases By Country": {
