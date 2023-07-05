@@ -13,11 +13,12 @@ The assigment will accomplish the following goals:
 
 ## Folder Contents
   
-|   #   | File                                 | Description                             |
-| :---: | ------------------------------------ | :-------------------------------------- |
-|  01   | [data.csv](data.csv)                 | COVID data set that we are pulling from |
-|  02   | [main.py](main.py)                   | File to run for API                     |
-|  03   | [requirements.txt](requirements.txt) | Packages used in virtual environment    |
+|   #   | File                                 | Description                               |
+| :---: | ------------------------------------ | :---------------------------------------- |
+|  01   | [data.csv](data.csv)                 | COVID data set that we are pulling from   |
+|  02   | [main.py](main.py)                   | File to run for API                       |
+|  03   | [report.md](report.md)               | Report on challenges faced in the project |
+|  04   | [requirements.txt](requirements.txt) | Packages used in virtual environment      |
 
 ### Deliverables
 - [X] Create a folder called `A08` to place all of the assignment files in.
