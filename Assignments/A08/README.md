@@ -107,10 +107,10 @@ This method returns a list total cases in the world by year and also the total n
 - **Returns:**
     - A list total cases in the world by year and also the total number of cases.
 
-### Example 1:
+#### Example 1:
 [https://localhost:5000/cases/](https://localhost:5000/cases/)
 
-### Response 1:
+#### Response 1:
 `{
     "Cases By Year": {
         "2020": 82853510,
@@ -160,10 +160,10 @@ This method returns the number of cases by country.
 "year": null
 }`
 
-### Example 2:
+#### Example 2:
 [https://localhost:5050/cases_by_country/?country=Brazil](https://localhost:5050/cases_by_country/?country=Brazil)
 
-### Response 2:
+#### Response 2:
 
 `{
     "Cases By Country": {
@@ -176,10 +176,10 @@ This method returns the number of cases by country.
 "year": null
 }`
 
-### Example 3:
+#### Example 3:
 [http://localhost:5000/cases_by_country/?country=Brazil&year=2021](http://localhost:5000/cases_by_country/?country=Brazil&year=2021)
 
-### Response 3:
+#### Response 3:
 
 `{
     "Cases By Country": {
