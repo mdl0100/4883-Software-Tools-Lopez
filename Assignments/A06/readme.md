@@ -45,4 +45,14 @@ Notion.so is a powerful productivity for note-taking, organization, and collabor
 ### Integration and Automation
 - Notion.so offers a range of integrations with popular apps and services, enabling users to streamline their workflows.
   - Google Drive, Dropbox, Trello, Slack, and more.
-  - Additionally, Notion.so provides automation capabilities.
+  - Additionally, Notion.so provides automation capabilities through buttons and an integrated A.I. The buttons are a part of a free plan, and allows you to create macros, while the A.I. is on a paid plan.
+
+## Resources
+### Notion Templates
+  [https://www.notion.so/templates]](https://www.notion.so/templates)
+  ![image](https://github.com/mdl0100/4883-SoftwareTools-Lopez/assets/7751091/c57c8f20-296c-4cc9-93a9-242446e1eb4a)
+
+### Notion Tutorials
+  [https://www.notion.so/help/guides](https://www.notion.so/help/guides)
+  ![image](https://github.com/mdl0100/4883-SoftwareTools-Lopez/assets/7751091/194ad878-f4b3-4f41-85df-c344bd7eac67)
+
