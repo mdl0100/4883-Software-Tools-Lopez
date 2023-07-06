@@ -49,11 +49,13 @@ Notion.so is a powerful productivity for note-taking, organization, and collabor
 
 ## Resources
 ### Notion Templates
-  [https://www.notion.so/templates]](https://www.notion.so/templates)
+  [https://www.notion.so/templates](https://www.notion.so/templates)
+  
   <img width="600" alt="Notion Templates" src="https://github.com/mdl0100/4883-SoftwareTools-Lopez/assets/7751091/c57c8f20-296c-4cc9-93a9-242446e1eb4a">
 
 ### Notion Tutorials
   [https://www.notion.so/help/guides](https://www.notion.so/help/guides)
+  
   <img width="600" alt="Notion Tutorials" src="https://github.com/mdl0100/4883-SoftwareTools-Lopez/assets/7751091/194ad878-f4b3-4f41-85df-c344bd7eac67">
 
 
