@@ -1,4 +1,4 @@
-# A08 - Faswt API with Covid Data
+# A08 - Fast API with Covid Data
 # Marcos Lopez
 
 
